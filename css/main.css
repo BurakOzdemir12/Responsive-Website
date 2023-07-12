@@ -250,6 +250,7 @@ background: var(--brand-primary, #4CAF4F);
 height: 244.564px;
 flex-shrink: 0;
 }
+/*achievments*/
 #Achievements{
   display: flex;
   width: 100%px;
@@ -257,4 +258,18 @@ flex-shrink: 0;
   justify-content: space-between;
   align-items: center;
   background: var(--neutral-silver, #F5F7FA);
+}
+.achivmentheading{
+  display: flex;
+width: 180.288px;
+flex-direction: column;
+align-items: flex-start;
+gap: 2.671px;
+flex-shrink: 0;
+}
+.count{
+  display: flex;
+flex-direction: column;
+align-items: center;
+gap: 13.355px;
 }
