@@ -1,0 +1,260 @@
+/*google'dan font import etme*/
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;500;700&family=Poppins:wght@300;400;500&display=swap');
+
+:root{
+    --lg-font: 'Kaisei Tokumin', serif; /* large fontlar için text family*/ 
+    --sm-font:'Poppins', sans-serif;    /* small fontlar için text family (General Font) */
+    --pink: #e5345b; /* Sık kullanıcağımız rengi tanıttık */
+    --neutral-white:#FFFFFF;
+  } 
+body{
+    font-family: var(--sm-font);
+}
+/*buton*/
+.bg-primary{
+    
+}
+/*buton*/
+.btn:not(.nav-btns button){
+    background-color: aliceblue;
+    color: rgba(85, 85, 85, 85);
+    padding: 10px 28px;
+    border-radius: 25px;
+    border: 1px solid rgb(85, 85, 85);
+   
+}
+.btn:not(.nav-btns button):hover{
+   
+   color: aliceblue;
+   
+}
+
+
+/*navbar gölgelendirme*/
+.navbar{
+  background: var(--neutral-white, #FFF);
+  /* Shadow/4px */
+  box-shadow: 0px 4px 8px 0px rgba(171, 190, 209, 0.40);
+  
+}
+/*navbar logo resmi*/
+.navbar-brand img{
+
+}
+/*navbar marka text'i*/
+.navbar-brand span{
+letter-spacing: 3px;
+font-family: var(--lg-font);
+}
+/*Navbar Linkleri (Animasyon)*/
+.nav-link:hover{
+  
+}
+/*Navbar itemleri */
+.nav-item{
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.05);
+}
+ 
+/*register button*/
+.registerbtn{
+display: flex;
+padding: 4.674px 10.684px;
+justify-content: center;
+align-items: center;
+gap: 2.671px;
+border-radius: 1.335px;
+background: var(--brand-primary, #4CAF4F);
+cursor: pointer;
+max-width: 30%;
+}
+.registerbtn2{
+  position: relative;
+  display: flex;
+  padding: 4.674px 10.684px;
+ margin-right: 100% !important;
+  gap: 2.671px;
+  border-radius: 1.335px;
+  background: var(--brand-primary, #4CAF4F);
+  cursor: pointer;
+}
+/*register text*/
+.registertext{
+color: white;
+text-align: center;
+/* Body/Medium/Body 2 */
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px;
+}
+.column{
+  
+  display: flex;
+  
+}
+.img1{
+  margin-left: 60%;
+  width: 346px;
+  height: 346px;
+  display: flex;
+  
+}
+/*footer*/
+footer .brand{
+  font-family: var(--lg-font);
+  letter-spacing: 3px;
+}
+footer a{
+  
+  transition: color 0.3s ease;
+}
+footer a:hover{
+  color: var(--neutral-white)!important;
+}
+
+/*media queries*/
+@media(min-width:992px){
+    .nav-item{
+        border-bottom: none; /*nav itemlerinin altındaki çizgiyi kaldırdı*/
+    }
+}
+.carousel-inner{
+  display: flex;
+padding: 52.051px 48.077px;
+align-items: center;
+gap: 34.722px;
+align-self: stretch;
+background: var(--neutral-silver, #F5F7FA);
+}
+
+.h5{
+  color: black;
+}
+.h1-1{
+  color: #4CAF4F;
+}
+.carousel-caption{
+  
+  position: absolute;
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 10.684px;
+flex: 1 0 0;
+top: 0ch;
+}
+.clients{
+  display: flex;
+width: 480.768px;
+padding: 0px 48.077px;
+flex-direction: column;
+align-items: center;
+gap: 5.342px;
+}
+.oclients{
+  display: flex;
+flex-direction: column;
+align-self: stretch;
+
+color: var(--neutral-d-grey, #4D4D4D);
+text-align: center;
+font-family: Inter;
+font-size: 32.019px;
+font-style: normal;
+font-weight: 600;
+line-height: 14.69px;
+}
+.clientssub{
+  display: flex;
+  flex-direction: column;
+  align-self: stretch;
+
+  color: var(--neutral-grey, #717171);
+text-align: center;
+font-family: Inter;
+font-size: 15.342px;
+font-style: normal;
+font-weight: 400;
+line-height: 8.013px;
+}
+.client-logos{
+  display: flex;
+}
+.lg{
+  width: 13.355px;
+height: 13.355px;
+flex-shrink: 0;
+}
+
+/*community cards*/
+.card{
+
+  align-items: center;
+  display: flex;
+  border-radius: 2.671px;
+  background: var(--neutral-white, #FFF);
+  box-shadow: 0px 0.6677330732345581px 1.3354661464691162px 0px rgba(171, 190, 209, 0.20);
+}
+.card img{
+  width: 41.701px;
+height: 38.697px;
+border-radius: 6.01px 1.669px 3.339px 1.669px;
+background: var(--tint-t-5, #E8F5E9);
+}
+.card-title{
+  display: flex;
+flex-direction: column;
+align-self: stretch;
+
+color: var(--neutral-d-grey, #4D4D4D);
+text-align: center;
+font-family: Inter;
+font-size: 23.348px;
+font-style: normal;
+font-weight: 700;
+line-height: 12.019px;
+}
+/*unlock*/
+
+.unlock{
+  display: flex;
+width: 480.768px;
+padding: 0px 48.077px;
+justify-content: space-between;
+align-items: center;
+}
+.unlockp{
+  display: flex;
+flex-direction: column;
+align-self: stretch;
+
+color: var(--neutral-grey, #717171);
+font-family: Inter;
+font-style: normal;
+font-weight: 400;
+
+}
+.unlockbtn{
+  display: flex;
+  padding: 4.674px 10.684px;
+  justify-content: center;
+  align-items: center;
+  gap: 3.339px;
+
+  border-radius: 1.335px;
+background: var(--brand-primary, #4CAF4F);
+}
+.frame35{
+  width: 247.569px;
+height: 244.564px;
+flex-shrink: 0;
+}
+#Achievements{
+  display: flex;
+  width: 100%px;
+  padding: 21.367px 48.077px;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--neutral-silver, #F5F7FA);
+}
