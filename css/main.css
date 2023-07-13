@@ -48,7 +48,9 @@ font-family: var(--lg-font);
 .nav-item{
     border-bottom: 0.5px solid rgba(0, 0, 0, 0.05);
 }
- 
+.indicatorss{
+  fill: var(--brand-primary, #4CAF4F);
+}
 /*register button*/
 .registerbtn{
 display: flex;
@@ -88,7 +90,7 @@ line-height: 24px;
   
 }
 .img1{
-  margin-left: 60%;
+  margin-left: auto;
   width: 346px;
   height: 346px;
   display: flex;
@@ -190,7 +192,7 @@ font-family: Inter;
 font-size: 32.019px;
 font-style: normal;
 font-weight: 600;
-line-height: 14.69px;
+line-height: 25.69px;
 }
 .clientssub{
   display: flex;
@@ -207,6 +209,7 @@ line-height: 8.013px;
 }
 .client-logos{
   display: flex;
+  
 }
 .lg{
   width: 13.355px;
@@ -240,7 +243,7 @@ font-family: Inter;
 font-size: 23.348px;
 font-style: normal;
 font-weight: 700;
-line-height: 12.019px;
+line-height: 18.019px;
 }
 /*unlock*/
 
@@ -403,13 +406,13 @@ line-height: 18.013px; /* 150% */
   
 }
 .registertext3{
-  width: 262.767px;
+  width: 0ch;
   color: var(--brand-primary, #4CAF4F);
 font-family: Inter;
 font-size: 23.677px;
 font-style: normal;
 font-weight: 1800;
-line-height: 9.348px; /* 140% */
+line-height: 19.348px; /* 140% */
 }
 /*community updates*/
 #community-updates{
@@ -417,6 +420,7 @@ line-height: 9.348px; /* 140% */
 flex-direction: column;
 align-items: center;
 gap: 5.342px;
+padding-bottom: 7ch;
 }
 /*community*/
 .community{
@@ -427,24 +431,25 @@ align-items: center;
 gap: 2.671px;
 }
 .communityH{
+ 
   align-self: stretch;
   color: var(--neutral-d-grey, #4D4D4D);
 text-align: center;
 font-family: Inter;
-font-size: 22.019px;
+font-size: 43.019px;
 font-style: normal;
-font-weight: 600;
-line-height: 24.69px; /* 122.222% */
+font-weight: 1000;
+line-height: 34.69px; /* 122.222% */
 }
 .communityP{
-  width: 509.668px;
+  width: 420.668px;
   color: var(--neutral-grey, #717171);
 text-align: center;
 font-family: Inter;
-font-size: 15.342px;
+font-size: 19.342px;
 font-style: normal;
 font-weight: 400;
-line-height: 28.013px; /* 150% */
+line-height: 18.013px; /* 150% */
 }
 .frame-15{
   display: flex;
@@ -460,9 +465,10 @@ display: flex;
 
 }
 .cards-0{
+  
   max-width: 34ch;
   width: 103%;
-  margin-top: -10ch;
+  margin-top: -8ch;
   position: absolute;
   display: flex;
 padding: 15.342px;
