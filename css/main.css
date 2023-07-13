@@ -11,9 +11,7 @@ body{
     font-family: var(--sm-font);
 }
 /*buton*/
-.bg-primary{
-    
-}
+
 /*buton*/
 .btn:not(.nav-btns button){
     background-color: aliceblue;
@@ -38,18 +36,14 @@ body{
   
 }
 /*navbar logo resmi*/
-.navbar-brand img{
 
-}
 /*navbar marka text'i*/
 .navbar-brand span{
 letter-spacing: 3px;
 font-family: var(--lg-font);
 }
 /*Navbar Linkleri (Animasyon)*/
-.nav-link:hover{
-  
-}
+
 /*Navbar itemleri */
 .nav-item{
     border-bottom: 0.5px solid rgba(0, 0, 0, 0.05);
