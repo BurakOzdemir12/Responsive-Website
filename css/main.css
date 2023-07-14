@@ -10,6 +10,7 @@
 body{
     font-family: var(--sm-font);
 }
+
 /*buton*/
 
 /*buton*/
@@ -64,9 +65,9 @@ cursor: pointer;
 max-width: 30%;
 }
 .registerbtn2{
-  position: relative;
-  display: flex;
-  padding: 4.674px 10.684px;
+  
+ 
+  padding: 14.674px 50.684px;
  margin-right: 100% !important;
   gap: 2.671px;
   border-radius: 1.335px;
@@ -84,16 +85,12 @@ font-style: normal;
 font-weight: 500;
 line-height: 24px;
 }
-.column{
-  
-  display: flex;
-  
-}
+
 .img1{
-  margin-left: auto;
-  width: 346px;
-  height: 346px;
   display: flex;
+  width: 300px;
+  height: 346px;
+  
   
 }
 /*footer-iki*/
@@ -108,7 +105,7 @@ background: var(--neutral-silver, #F5F7FA);
 }
 .fth1{
   width: 300.14px;
-  color: var(--neutral-black, #263238);
+  
 text-align: center;
 font-family: Inter;
 font-size: 20.367px;
@@ -150,7 +147,8 @@ footer a:hover{
 }
 .carousel-inner{
   display: flex;
-padding: 52.051px 48.077px;
+padding: 52.051px ;
+
 align-items: center;
 gap: 34.722px;
 align-self: stretch;
@@ -163,15 +161,13 @@ background: var(--neutral-silver, #F5F7FA);
 .h1-1{
   color: #4CAF4F;
 }
-.carousel-caption{
-  
-  position: absolute;
+.cardlar{
+  margin-left: 2%;
   display: flex;
-flex-direction: column;
-align-items: flex-start;
-gap: 10.684px;
-flex: 1 0 0;
-top: 0ch;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10.684px;
+  flex: 1 0 0;
 }
 .clients{
   display: flex;
@@ -398,21 +394,22 @@ font-weight: 400;
 line-height: 18.013px; /* 150% */
 }
 .registerbtn3{
-  display: flex;
+ 
   padding: 2.671px;
   align-items: center;
   gap: 2.671px;
   flex: 1 0 0;
-  
+  width: 0ch;
 }
 .registertext3{
-  width: 0ch;
+  display: flex;
+  width: auto;
   color: var(--brand-primary, #4CAF4F);
 font-family: Inter;
-font-size: 23.677px;
+font-size: 17.677px;
 font-style: normal;
-font-weight: 1800;
-line-height: 19.348px; /* 140% */
+font-weight: 1500;
+line-height: 15.348px; /* 140% */
 }
 /*community updates*/
 #community-updates{
@@ -432,17 +429,17 @@ gap: 2.671px;
 }
 .communityH{
  
-  align-self: stretch;
+ 
   color: var(--neutral-d-grey, #4D4D4D);
 text-align: center;
 font-family: Inter;
 font-size: 43.019px;
 font-style: normal;
 font-weight: 1000;
-line-height: 34.69px; /* 122.222% */
+line-height: 54.69px; /* 122.222% */
 }
 .communityP{
-  width: 420.668px;
+  width: auto;
   color: var(--neutral-grey, #717171);
 text-align: center;
 font-family: Inter;
@@ -500,7 +497,4 @@ gap: -32.051px;
   position: relative;
   display: inline-block;
   font-size: larger;
-  font-weight: 600;
-  
-}
-
+  font-weight: 600;}
