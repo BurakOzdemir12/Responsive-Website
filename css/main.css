@@ -160,6 +160,7 @@ background: var(--neutral-silver, #F5F7FA);
 }
 .h1-1{
   color: #4CAF4F;
+  
 }
 .cardlar{
   margin-left: 2%;
@@ -185,10 +186,10 @@ align-self: stretch;
 color: var(--neutral-d-grey, #4D4D4D);
 text-align: center;
 font-family: Inter;
-font-size: 32.019px;
+font-size: 62.019px;
 font-style: normal;
 font-weight: 600;
-line-height: 25.69px;
+line-height: 35.69px;
 }
 .clientssub{
   display: flex;
@@ -198,7 +199,7 @@ line-height: 25.69px;
   color: var(--neutral-grey, #717171);
 text-align: center;
 font-family: Inter;
-font-size: 15.342px;
+font-size: 19.342px;
 font-style: normal;
 font-weight: 400;
 line-height: 8.013px;
