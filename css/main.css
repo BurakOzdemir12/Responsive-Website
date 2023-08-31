@@ -463,9 +463,9 @@ display: flex;
 
 }
 .cards-0{
-  
-  max-width: 34ch;
-  width: 103%;
+  margin-left: 2ch;
+  max-width: 30ch;
+  width: 89%;
   margin-top: -8ch;
   position: absolute;
   display: flex;
